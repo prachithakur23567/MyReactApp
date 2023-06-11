@@ -1,0 +1,43 @@
+
+.navbar{
+    /* background-color: aquamarine; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+ 
+}
+.nav-logo{
+    background-color:none;
+    margin:13px 65px ;
+    
+}
+
+.nav-link{
+   
+    margin: 15px 9rem;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav-link ul{
+   
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-left:  20rem;
+    
+  
+}
+.nav-link ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 14px;
+    
+}
+.active_item:hover{
+    color: blue;
+}
+  
